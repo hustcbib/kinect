@@ -137,7 +137,7 @@ MyMain::MyMain(void)
 	// 计时器实例化
 	mt = new MyTimer(this);
 	// 脚本器实例化
-	script = new Script(14,8);
+	script = new Script(20,10);
 	// 身体数据初始化
 	armShow = bellyShow = legShow = heightShow = 0;
 	// 骨骼点初始化
