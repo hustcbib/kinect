@@ -270,7 +270,7 @@
 background-color: rgba(0, 0, 0, 50);</string>
               </property>
               <property name="text">
-               <string>TIPS</string>
+               <string/>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
