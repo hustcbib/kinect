@@ -10,7 +10,7 @@ QtGuiApplication1::QtGuiApplication1(QWidget *parent)
 	updateTime = new QTimer(this);
 	// 连接重置按钮的点击事件和 reset() 函数
 	connect(ui.pushButton,SIGNAL(clicked()),this,SLOT(reset()));
-	// 连接计时器的时间到事件和 updateFrame() 函数
+	// 连接计时器的时间到事件和 updat.eFrame() 函数
 	connect(updateTime, SIGNAL(timeout()), this, SLOT(updateFrame()));
 	// 计时器开始计时 33 个毫秒
 	updateTime->start(33);
@@ -78,7 +78,8 @@ void QtGuiApplication1::paintEvent(QPaintEvent *event)
 			// 传入的 QPoint 使输出图像居中
 			draw.drawImage(QPoint((this->width() - x)/2, (this->height() - y)/2), disImage);
 			// 对后台传来的提示语进行绑定
-			ui.tips->setText(QString::fromLocal8Bit(m->GetTip().data()));
+			//ui.tips->setText(QString::fromLocal8Bit(m->GetTip().data()));
+			m->GetTip();
 		}
 	}
 	else
