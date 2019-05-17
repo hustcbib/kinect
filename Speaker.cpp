@@ -13,8 +13,8 @@ void  Speaker::MSSpeak(LPCWSTR speakContent)// speakContentÎªLPCWSTRÐÍµÄ×Ö·û´®,µ
 
 	if (SUCCEEDED(h))
 	{
-		pVoice->SetVolume((USHORT)50); //ÉèÖÃÒôÁ¿£¬·¶Î§ÊÇ 0 -100
-		pVoice->SetRate(3); //ÉèÖÃËÙ¶È£¬·¶Î§ÊÇ -10 - 10
+		pVoice->SetVolume((USHORT)100); //ÉèÖÃÒôÁ¿£¬·¶Î§ÊÇ 0 -100
+		pVoice->SetRate(1); //ÉèÖÃËÙ¶È£¬·¶Î§ÊÇ -10 - 10
 		h = pVoice->Speak(speakContent, 0, NULL);
 
 		pVoice->Release();
