@@ -128,7 +128,7 @@ public:
 	{
 		if (type == "hight")
 		{
-			if (Unit::ToCM(script->height) > 175) return 1;
+			if (Unit::ToCM(script->height) > 190) return 1;
 			else if (Unit::ToCM(script->height) < 160) return -1;
 			else return 0;
 		}

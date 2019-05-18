@@ -1,0 +1,7 @@
+﻿  main.cpp
+  MyMain.cpp
+  putText.cpp
+  QtGuiApplication1.cpp
+  moc_QtGuiApplication1.cpp
+d:\experience\研究生\图像处理实验室\kinect项目\kinect\qtguiapplication1\mymain.h(159): warning C4715: “MyMain::Check”: 不是所有的控件路径都返回值
+  QtGuiApplication1.vcxproj -> D:\Experience\研究生\图像处理实验室\Kinect项目\kinect\x64\Release\QtGuiApplication1.exe
